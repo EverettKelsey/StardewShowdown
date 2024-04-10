@@ -22,7 +22,7 @@ public class LevelController : MonoBehaviour
             GoToNextLevel();
     }
 
-    void GoToNextLevel()
+    public void GoToNextLevel()
     {
         Debug.Log("Go to level " + _nextLevelName);
         SceneManager.LoadScene(_nextLevelName);
@@ -37,5 +37,10 @@ public class LevelController : MonoBehaviour
         }
 
         return true;
+    }
+
+    public void ExitGame()
+    {
+        Debug.Log("Exiting Game");
     }
 }
