@@ -3,7 +3,7 @@ using System;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class Crate : MonoBehaviour
+public class Crates : MonoBehaviour
 {
     [SerializeField] AudioClip[] _clips;
 
