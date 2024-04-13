@@ -48,8 +48,8 @@ public class Krobus : MonoBehaviour
         _rigidbody2D.isKinematic = false;
         _rigidbody2D.AddForce(direction * _launchForce);
 
-        //var audioSource = GetComponent<AudioSource>();
-        //audioSource.Play();
+        var audioSource = GetComponent<AudioSource>();
+        audioSource.Play();
 
         _spriteRenderer.color = Color.white;
         IsDragging = false;

@@ -15,9 +15,5 @@ public class Crates : MonoBehaviour
             AudioClip clip = _clips[index];
             GetComponent<AudioSource>().PlayOneShot(clip);
         }
-        else
-        {
-            Debug.Log("Collision was too slow to play a sound." + collision.relativeVelocity.magnitude);
-        }
     }
 }
