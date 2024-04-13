@@ -274,7 +274,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 399003128253748517, guid: 904d520997cfe13438b589415a8e4f20, type: 3}
       propertyPath: _nextLevelName
-      value: Level3
+      value: End
       objectReference: {fileID: 0}
     - target: {fileID: 399003128253748518, guid: 904d520997cfe13438b589415a8e4f20, type: 3}
       propertyPath: m_Name
@@ -1815,6 +1815,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   pauseMenuUI: {fileID: 1114022254}
+  _scene: Level5
 --- !u!114 &1294293718
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1998,6 +1999,10 @@ PrefabInstance:
       propertyPath: m_AnchorMax.y
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 5224554250530464198, guid: 6354a2c340d1db04c80cf8b2f93b4d27, type: 3}
+      propertyPath: _scene
+      value: Level5
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 6354a2c340d1db04c80cf8b2f93b4d27, type: 3}
 --- !u!4 &1404739048 stripped
@@ -2167,7 +2172,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7759380589438308086, guid: ec1c6d0308ddd95439d0db7217db4ecc, type: 3}
       propertyPath: orthographic size
-      value: 12.196237
+      value: 12.190728
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: ec1c6d0308ddd95439d0db7217db4ecc, type: 3}
