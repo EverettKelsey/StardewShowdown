@@ -210,6 +210,7 @@ GameObject:
   - component: {fileID: 62521239}
   - component: {fileID: 62521238}
   - component: {fileID: 62521237}
+  - component: {fileID: 62521241}
   m_Layer: 5
   m_Name: Canvas
   m_TagString: Untagged
@@ -292,8 +293,8 @@ RectTransform:
   - {fileID: 391451453}
   - {fileID: 1662751568}
   - {fileID: 945018907}
-  - {fileID: 1964285176}
   - {fileID: 1369554240}
+  - {fileID: 1964285176}
   m_Father: {fileID: 0}
   m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -302,6 +303,20 @@ RectTransform:
   m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0, y: 0}
+--- !u!114 &62521241
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 62521236}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9b3f64a1dc70637489230c79dba78cb8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  pauseMenuUI: {fileID: 1964285175}
+  _scene: End
 --- !u!1 &111417411
 GameObject:
   m_ObjectHideFlags: 0
@@ -880,8 +895,8 @@ SpriteRenderer:
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
-  m_DrawMode: 0
-  m_Size: {x: 7.36, y: 4.14}
+  m_DrawMode: 2
+  m_Size: {x: 18.006487, y: 7.084273}
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
@@ -895,7 +910,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 761648856}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -0.01, y: 0.03, z: 0}
+  m_LocalPosition: {x: 0.07, y: 3.71, z: 0}
   m_LocalScale: {x: 2.4748, y: 2.4748, z: 2.4748}
   m_Children: []
   m_Father: {fileID: 0}
@@ -1822,7 +1837,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9b3f64a1dc70637489230c79dba78cb8, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  pauseMenuUI: {fileID: 0}
+  pauseMenuUI: {fileID: 1964285175}
   _scene: Level1
 --- !u!114 &945018911
 MonoBehaviour:
@@ -3047,7 +3062,7 @@ RectTransform:
   m_LocalScale: {x: 0.7104733, y: 0.7104733, z: 0.7104733}
   m_Children: []
   m_Father: {fileID: 62521240}
-  m_RootOrder: 5
+  m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 1, y: 0}
   m_AnchorMax: {x: 1, y: 0}
@@ -3175,8 +3190,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9b3f64a1dc70637489230c79dba78cb8, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  pauseMenuUI: {fileID: 0}
-  _scene: 
+  pauseMenuUI: {fileID: 1964285175}
+  _scene: End
 --- !u!114 &1369554244
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -4286,7 +4301,7 @@ Transform:
   - {fileID: 1786335011}
   - {fileID: 1122589704}
   m_Father: {fileID: 62521240}
-  m_RootOrder: 4
+  m_RootOrder: 5
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &2004325897
 GameObject:

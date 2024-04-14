@@ -363,8 +363,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9b3f64a1dc70637489230c79dba78cb8, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  pauseMenuUI: {fileID: 0}
-  _scene: 
+  pauseMenuUI: {fileID: 1641726436}
+  _scene: Welcome
 --- !u!114 &119057410
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2715,8 +2715,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9b3f64a1dc70637489230c79dba78cb8, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  pauseMenuUI: {fileID: 0}
-  _scene: 
+  pauseMenuUI: {fileID: 1641726436}
+  _scene: Welcome
 --- !u!114 &1152143913
 MonoBehaviour:
   m_ObjectHideFlags: 0
